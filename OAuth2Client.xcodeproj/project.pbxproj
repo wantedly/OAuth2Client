@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1386153504422BA99124CAF7 /* libPods-OAuth2Client.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40849FAD34564F4EFCE36831 /* libPods-OAuth2Client.a */; };
+		5612A8051F2462DB21A92047 /* libPods-OAuth2Client.framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A478D6450EDCE2441D8D0990 /* libPods-OAuth2Client.framework.a */; };
 		824D5A6E123F68A8001177D5 /* NXOAuth2ClientDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 824D5A6D123F68A8001177D5 /* NXOAuth2ClientDelegate.h */; settings = {ATTRIBUTES = (); }; };
 		9404FAC2123E3A6900397DD1 /* NXOAuth2.h in Headers */ = {isa = PBXBuildFile; fileRef = 9404FAC1123E3A6900397DD1 /* NXOAuth2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9404FAC3123E3A6900397DD1 /* NXOAuth2.h in Headers */ = {isa = PBXBuildFile; fileRef = 9404FAC1123E3A6900397DD1 /* NXOAuth2.h */; settings = {ATTRIBUTES = (); }; };
@@ -53,7 +55,6 @@
 		942FFD7E12315EFF00E6C65E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E5AC92122C097B00C7021A /* Security.framework */; };
 		945A500D123F7BAE00A6F2EB /* NXOAuth2ClientDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 824D5A6D123F68A8001177D5 /* NXOAuth2ClientDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94B6CE7219C1D3E400AA859B /* NXOAuth2PostBodyStreamSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B6CE7119C1D3E400AA859B /* NXOAuth2PostBodyStreamSpec.m */; };
-		94B6CE8119C1EECC00AA859B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94B6CE8019C1EECC00AA859B /* Info.plist */; };
 		94CCDD2219C1F29E00F9F148 /* libOAuth2Client.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libOAuth2Client.a */; };
 		94E5AC93122C097B00C7021A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E5AC92122C097B00C7021A /* Security.framework */; };
 		99D8A7F913852C6E00E3073C /* NSData+NXOAuth2.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D8A7F713852C6E00E3073C /* NSData+NXOAuth2.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -62,9 +63,9 @@
 		99D8A80013852D3600E3073C /* NSData+NXOAuth2.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D8A7FE13852D3600E3073C /* NSData+NXOAuth2.m */; };
 		99F08DEA138BE8CE002A5401 /* NXOAuth2TrustDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 99F08DE9138BE8CE002A5401 /* NXOAuth2TrustDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99F08DEB138BE8CE002A5401 /* NXOAuth2TrustDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 99F08DE9138BE8CE002A5401 /* NXOAuth2TrustDelegate.h */; };
-		A003F051E0194B78BC806FA1 /* libPods-OAuth2ClientTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E2089E9E7941B7AF3D27AA /* libPods-OAuth2ClientTests.a */; };
 		AA747D9F0F9514B9006C5449 /* OAuth2Client_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* OAuth2Client_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		F3771C6531B56CC8C4B5223B /* libPods-OAuth2ClientTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF3B691F6E00A64CDA32BAC /* libPods-OAuth2ClientTests.a */; };
 		F6525B4513D593C900ACAE8F /* NXOAuth2Account+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = F6525B4313D593C900ACAE8F /* NXOAuth2Account+Private.h */; };
 		F6525B4613D593C900ACAE8F /* NXOAuth2Account+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = F6525B4313D593C900ACAE8F /* NXOAuth2Account+Private.h */; };
 		F65713CE13CC87FD00C8A33A /* NXOAuth2AccountStore.h in Headers */ = {isa = PBXBuildFile; fileRef = F65713CC13CC87FD00C8A33A /* NXOAuth2AccountStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -84,7 +85,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D17A7C53DD69A35176F9CEF /* Pods-OAuth2Client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAuth2Client.release.xcconfig"; path = "Target Support Files/Pods-OAuth2Client/Pods-OAuth2Client.release.xcconfig"; sourceTree = "<group>"; };
+		2609B1357431527AF37AAF10 /* Pods-OAuth2Client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAuth2Client.debug.xcconfig"; path = "Target Support Files/Pods-OAuth2Client/Pods-OAuth2Client.debug.xcconfig"; sourceTree = "<group>"; };
+		40849FAD34564F4EFCE36831 /* libPods-OAuth2Client.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OAuth2Client.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE8C5B0A1A2289E78786F70 /* Pods-OAuth2ClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAuth2ClientTests.release.xcconfig"; path = "Target Support Files/Pods-OAuth2ClientTests/Pods-OAuth2ClientTests.release.xcconfig"; sourceTree = "<group>"; };
 		824D5A6D123F68A8001177D5 /* NXOAuth2ClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXOAuth2ClientDelegate.h; sourceTree = "<group>"; };
+		8EA988AB175A03224B076914 /* Pods-OAuth2ClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAuth2ClientTests.debug.xcconfig"; path = "Target Support Files/Pods-OAuth2ClientTests/Pods-OAuth2ClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		90EBD36AB84C247FB2801083 /* Pods-OAuth2Client.framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAuth2Client.framework.release.xcconfig"; path = "Target Support Files/Pods-OAuth2Client.framework/Pods-OAuth2Client.framework.release.xcconfig"; sourceTree = "<group>"; };
 		9404FAC1123E3A6900397DD1 /* NXOAuth2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXOAuth2.h; sourceTree = "<group>"; };
 		9429B3A812267A3100D31807 /* NXOAuth2Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXOAuth2Client.h; sourceTree = "<group>"; };
 		9429B3A912267A3100D31807 /* NXOAuth2Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXOAuth2Client.m; sourceTree = "<group>"; };
@@ -115,12 +122,12 @@
 		99D8A7F713852C6E00E3073C /* NSData+NXOAuth2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+NXOAuth2.h"; sourceTree = "<group>"; };
 		99D8A7FE13852D3600E3073C /* NSData+NXOAuth2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+NXOAuth2.m"; sourceTree = "<group>"; };
 		99F08DE9138BE8CE002A5401 /* NXOAuth2TrustDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXOAuth2TrustDelegate.h; sourceTree = "<group>"; };
-		A584AA53216FADEE87202521 /* Pods-OAuth2ClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAuth2ClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OAuth2ClientTests/Pods-OAuth2ClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		A478D6450EDCE2441D8D0990 /* libPods-OAuth2Client.framework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OAuth2Client.framework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA747D9E0F9514B9006C5449 /* OAuth2Client_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuth2Client_Prefix.pch; sourceTree = "<group>"; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		B9E2089E9E7941B7AF3D27AA /* libPods-OAuth2ClientTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OAuth2ClientTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCCB476CC96A52415E9D44D3 /* Pods-OAuth2ClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAuth2ClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OAuth2ClientTests/Pods-OAuth2ClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCF3B691F6E00A64CDA32BAC /* libPods-OAuth2ClientTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OAuth2ClientTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AAC07E0554694100DB518D /* libOAuth2Client.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOAuth2Client.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10BA2762A4F2C46EE7D6883 /* Pods-OAuth2Client.framework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAuth2Client.framework.debug.xcconfig"; path = "Target Support Files/Pods-OAuth2Client.framework/Pods-OAuth2Client.framework.debug.xcconfig"; sourceTree = "<group>"; };
 		F6525B4313D593C900ACAE8F /* NXOAuth2Account+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NXOAuth2Account+Private.h"; sourceTree = SOURCE_ROOT; };
 		F65713CC13CC87FD00C8A33A /* NXOAuth2AccountStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXOAuth2AccountStore.h; sourceTree = "<group>"; };
 		F65713CD13CC87FD00C8A33A /* NXOAuth2AccountStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXOAuth2AccountStore.m; sourceTree = "<group>"; };
@@ -140,6 +147,7 @@
 				F6B39C7A13CC981400B43FE0 /* Cocoa.framework in Frameworks */,
 				942FFD7E12315EFF00E6C65E /* Security.framework in Frameworks */,
 				942FFCFE12315EFC00E6C65E /* Foundation.framework in Frameworks */,
+				5612A8051F2462DB21A92047 /* libPods-OAuth2Client.framework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94CCDD2219C1F29E00F9F148 /* libOAuth2Client.a in Frameworks */,
-				A003F051E0194B78BC806FA1 /* libPods-OAuth2ClientTests.a in Frameworks */,
+				F3771C6531B56CC8C4B5223B /* libPods-OAuth2ClientTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +167,7 @@
 				F6B39C7813CC980500B43FE0 /* UIKit.framework in Frameworks */,
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
 				94E5AC93122C097B00C7021A /* Security.framework in Frameworks */,
+				1386153504422BA99124CAF7 /* libPods-OAuth2Client.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,7 +192,7 @@
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
 				942FFCDE12315E2E00E6C65E /* Resources */,
-				B061851D30896FF145B69FB5 /* Pods */,
+				C5E12E1D085F55E5E7B73A47 /* Pods */,
 			);
 			name = OAuth2Client;
 			sourceTree = "<group>";
@@ -195,7 +204,9 @@
 				F6B39C7713CC980500B43FE0 /* UIKit.framework */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 				94E5AC92122C097B00C7021A /* Security.framework */,
-				B9E2089E9E7941B7AF3D27AA /* libPods-OAuth2ClientTests.a */,
+				40849FAD34564F4EFCE36831 /* libPods-OAuth2Client.a */,
+				A478D6450EDCE2441D8D0990 /* libPods-OAuth2Client.framework.a */,
+				CCF3B691F6E00A64CDA32BAC /* libPods-OAuth2ClientTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -277,13 +288,17 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		B061851D30896FF145B69FB5 /* Pods */ = {
+		C5E12E1D085F55E5E7B73A47 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CCCB476CC96A52415E9D44D3 /* Pods-OAuth2ClientTests.debug.xcconfig */,
-				A584AA53216FADEE87202521 /* Pods-OAuth2ClientTests.release.xcconfig */,
+				2609B1357431527AF37AAF10 /* Pods-OAuth2Client.debug.xcconfig */,
+				0D17A7C53DD69A35176F9CEF /* Pods-OAuth2Client.release.xcconfig */,
+				E10BA2762A4F2C46EE7D6883 /* Pods-OAuth2Client.framework.debug.xcconfig */,
+				90EBD36AB84C247FB2801083 /* Pods-OAuth2Client.framework.release.xcconfig */,
+				8EA988AB175A03224B076914 /* Pods-OAuth2ClientTests.debug.xcconfig */,
+				5AE8C5B0A1A2289E78786F70 /* Pods-OAuth2ClientTests.release.xcconfig */,
 			);
-			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		F6E1A11313D7128100B6DAC3 /* Private */ = {
@@ -368,6 +383,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 942FFCDA12315E0A00E6C65E /* Build configuration list for PBXNativeTarget "OAuth2Client.framework" */;
 			buildPhases = (
+				247BC870C6740AB7685EC6BC /* [CP] Check Pods Manifest.lock */,
 				942FFCD112315E0A00E6C65E /* Headers */,
 				942FFCD212315E0A00E6C65E /* Resources */,
 				942FFCD312315E0A00E6C65E /* Sources */,
@@ -386,11 +402,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94B6CE6E19C1D0A300AA859B /* Build configuration list for PBXNativeTarget "OAuth2ClientTests" */;
 			buildPhases = (
-				4D9A355777724FBBBA751757 /* Check Pods Manifest.lock */,
+				AA3E93B83FCF5F0F7593C23B /* [CP] Check Pods Manifest.lock */,
 				94B6CE6219C1D0A200AA859B /* Sources */,
 				94B6CE6319C1D0A200AA859B /* Frameworks */,
 				94B6CE6419C1D0A200AA859B /* Resources */,
-				5E07A0BAF0414D28A3A2CE90 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -405,6 +420,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "OAuth2Client" */;
 			buildPhases = (
+				C94E8EDF01247756DA3F233A /* [CP] Check Pods Manifest.lock */,
 				D2AAC07A0554694100DB518D /* Headers */,
 				D2AAC07B0554694100DB518D /* Sources */,
 				D2AAC07C0554694100DB518D /* Frameworks */,
@@ -466,41 +482,76 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94B6CE8119C1EECC00AA859B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4D9A355777724FBBBA751757 /* Check Pods Manifest.lock */ = {
+		247BC870C6740AB7685EC6BC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OAuth2Client.framework-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5E07A0BAF0414D28A3A2CE90 /* Copy Pods Resources */ = {
+		AA3E93B83FCF5F0F7593C23B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OAuth2ClientTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OAuth2ClientTests/Pods-OAuth2ClientTests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C94E8EDF01247756DA3F233A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OAuth2Client-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -559,6 +610,7 @@
 /* Begin XCBuildConfiguration section */
 		1DEB921F08733DC00010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2609B1357431527AF37AAF10 /* Pods-OAuth2Client.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
@@ -582,6 +634,7 @@
 		};
 		1DEB922008733DC00010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D17A7C53DD69A35176F9CEF /* Pods-OAuth2Client.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
@@ -629,6 +682,7 @@
 		};
 		942FFCD812315E0A00E6C65E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E10BA2762A4F2C46EE7D6883 /* Pods-OAuth2Client.framework.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -659,6 +713,7 @@
 		};
 		942FFCD912315E0A00E6C65E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90EBD36AB84C247FB2801083 /* Pods-OAuth2Client.framework.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -692,7 +747,7 @@
 		};
 		94B6CE6C19C1D0A300AA859B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCCB476CC96A52415E9D44D3 /* Pods-OAuth2ClientTests.debug.xcconfig */;
+			baseConfigurationReference = 8EA988AB175A03224B076914 /* Pods-OAuth2ClientTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -738,7 +793,7 @@
 		};
 		94B6CE6D19C1D0A300AA859B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A584AA53216FADEE87202521 /* Pods-OAuth2ClientTests.release.xcconfig */;
+			baseConfigurationReference = 5AE8C5B0A1A2289E78786F70 /* Pods-OAuth2ClientTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
