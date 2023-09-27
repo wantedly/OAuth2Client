@@ -599,7 +599,7 @@ NSString * const kNXOAuth2AccountStoreAccountType = @"kNXOAuth2AccountStoreAccou
     }
 }
 
-- (void)oauthClient:(NXOAuth2Client *)client didFailToGetAccessTokenWithError:(NSError *)error;
+- (void)oauthClient:(NXOAuth2Client *)client didFailToGetAccessTokenWithError:(NSError *)error urlResponse:(NSURLResponse *)urlResponse;
 {
     NSString *accountType;
     @synchronized (self.pendingOAuthClients) {
@@ -609,13 +609,16 @@ NSString * const kNXOAuth2AccountStoreAccountType = @"kNXOAuth2AccountStoreAccou
         }
     }
 
-    NSDictionary *userInfo = [NSDictionary dictionaryWithObjectsAndKeys:
-                              accountType, kNXOAuth2AccountStoreAccountType,
-                              error, NXOAuth2AccountStoreErrorKey, nil];
+    NSMutableDictionary *userInfo = [NSMutableDictionary dictionaryWithObjectsAndKeys:
+                                     accountType, kNXOAuth2AccountStoreAccountType,
+                                     error, NXOAuth2AccountStoreErrorKey, nil];
+    if (urlResponse) {
+        [userInfo setObject:urlResponse forKey:NXOAuth2AccountStoreURLResponseKey];
+    }
 
     [[NSNotificationCenter defaultCenter] postNotificationName:NXOAuth2AccountStoreDidFailToRequestAccessNotification
                                                         object:self
-                                                      userInfo:userInfo];
+                                                      userInfo:[userInfo copy]];
 }
 
 
