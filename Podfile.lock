@@ -12,10 +12,19 @@ DEPENDENCIES:
   - OHHTTPStubs (~> 3.1)
   - Specta (~> 0.2)
 
+SPEC REPOS:
+  trunk:
+    - Expecta
+    - OCMock
+    - OHHTTPStubs
+    - Specta
+
 SPEC CHECKSUMS:
   Expecta: a354d4633409dd9fe8c4f5ff5130426adbe31628
   OCMock: a73f69963a8a542b0b343e2617650e4dca0cbbc2
   OHHTTPStubs: 5cb8c4e590851d42cfb02fb6269d5404cfa2e9c3
   Specta: 15a276a6343867b426d5ed135d5aa4d04123a573
 
-COCOAPODS: 0.36.3
+PODFILE CHECKSUM: 8f9cbf58075abc9636b8279d05593792a57e6a7e
+
+COCOAPODS: 1.13.0
