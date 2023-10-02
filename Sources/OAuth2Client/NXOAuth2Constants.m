@@ -39,3 +39,4 @@ NSString * const NXOAuth2HTTPErrorDomain = @"NXOAuth2HTTPErrorDomain";
 
 NSString * const NXOAuth2AccountStoreErrorKey = @"NXOAuth2AccountStoreErrorKey";
 NSString * const NXOAuth2AccountStoreURLResponseKey = @"NXOAuth2AccountStoreURLResponseKey";
+NSString * const NXOAuth2AccountStoreResponseBodyKey = @"NXOAuth2AccountStoreResponseBodyKey";

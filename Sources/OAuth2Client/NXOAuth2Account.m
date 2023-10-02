@@ -186,13 +186,16 @@ NSString * const NXOAuth2AccountDidFailToGetAccessTokenNotification = @"NXOAuth2
                                                         object:self];
 }
 
-- (void)oauthClient:(NXOAuth2Client *)client didFailToGetAccessTokenWithError:(NSError *)error urlResponse:(NSURLResponse *)urlResponse;
+- (void)oauthClient:(NXOAuth2Client *)client didFailToGetAccessTokenWithError:(NSError *)error data:(NSData *)data urlResponse:(NSURLResponse *)urlResponse;
 {
     accessToken = nil;
     NSMutableDictionary *userInfo = [NSMutableDictionary dictionaryWithObject:error
                                                                        forKey:NXOAuth2AccountStoreErrorKey];
     if (urlResponse) {
         [userInfo setObject:urlResponse forKey:NXOAuth2AccountStoreURLResponseKey];
+    }
+    if (data) {
+        [userInfo setObject:data forKey:NXOAuth2AccountStoreResponseBodyKey];
     }
     [[NSNotificationCenter defaultCenter] postNotificationName:NXOAuth2AccountDidFailToGetAccessTokenNotification
                                                         object:self
