@@ -566,7 +566,7 @@ NSString * const NXOAuth2ClientConnectionContextTokenRefresh = @"tokenRefresh";
                 self.accessToken = nil;        // reset the token since it got invalid
             }
             
-            if ([delegate respondsToSelector:@selector(oauthClient:didFailToGetAccessTokenWithError:data:urlResponse::)]) {
+            if ([delegate respondsToSelector:@selector(oauthClient:didFailToGetAccessTokenWithError:data:urlResponse:)]) {
                 [delegate oauthClient:self didFailToGetAccessTokenWithError:error data:connection.data urlResponse:connection.response];
             }
         }
