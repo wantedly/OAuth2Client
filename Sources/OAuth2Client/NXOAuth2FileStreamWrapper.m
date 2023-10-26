@@ -51,7 +51,7 @@
         stream = aStream;
         contentLength = aContentLength;
         fileName = [aFileName copy];
-        contentType = @"application/octet-stream"; // DEFAULT if not assigned by property
+        contentTypeValue = @"application/octet-stream"; // DEFAULT if not assigned by property
     }
     return self;
 }
@@ -59,7 +59,7 @@
 
 #pragma mark Accessors
 
-@synthesize stream, contentLength, fileName, contentType;
+@synthesize stream, contentLength, fileName, contentTypeValue;
 
 
 @end

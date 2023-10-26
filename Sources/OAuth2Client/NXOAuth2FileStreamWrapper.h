@@ -18,12 +18,12 @@
     NSInputStream        *stream;
     unsigned long long    contentLength;
     NSString            *fileName;
-    NSString            *contentType;
+    NSString            *contentTypeValue;
 }
 @property (nonatomic, strong, readonly) NSInputStream *stream;
 @property (nonatomic, assign, readonly) unsigned long long contentLength;
 @property (nonatomic, copy, readonly) NSString *fileName;
-@property (nonatomic, copy) NSString *contentType; // optional DEFAULT: "application/octettstream"
+@property (nonatomic, copy) NSString *contentTypeValue; // optional DEFAULT: "application/octettstream"
 
 + (instancetype)wrapperWithStream:(NSInputStream *)stream
                     contentLength:(unsigned long long)contentLength DEPRECATED_ATTRIBUTE;
