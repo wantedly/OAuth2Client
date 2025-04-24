@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/nxtbgthng/OAuth2Client'
   s.author   = { 'nxtbgthng' => 'team@nxtbgthng.com'}
   s.source   = { :git => 'https://github.com/nxtbgthng/OAuth2Client.git', :tag => "v#{s.version}" }
-  s.source_files = 'NXOAuth2Account+Private.h', 'Sources/', 'Sources/OAuth2Client/'
+  s.source_files = 'Sources/**/*.{h,m}'
   s.frameworks = 'Security'
   s.requires_arc = true
 end
